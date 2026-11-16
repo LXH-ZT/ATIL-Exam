@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>service_node</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="lxh@todo.todo">lxh</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>add_two_ints_srv</depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

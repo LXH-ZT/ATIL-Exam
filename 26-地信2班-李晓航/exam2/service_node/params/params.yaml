@@ -1,0 +1,16 @@
+robot_status_publisher:
+  ros__parameters:
+    publish_rate: 2.0
+    topic_name: "/robot_status"
+
+robot_status_subscriber:
+  ros__parameters:
+    topic_name: "/robot_status"
+
+add_two_ints_server:
+  ros__parameters:
+    service_name: "/add_two_ints"
+
+add_two_ints_client:
+  ros__parameters:
+    service_name: "/add_two_ints"
